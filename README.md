@@ -4,8 +4,20 @@ A reproducible, dependency-free analytics example built on deterministic
 synthetic mobile-game events. It connects event contracts, data-quality checks,
 funnel and retention SQL, build comparison, monetization, and a decision note.
 
+[![CI](https://github.com/oguzhanozfe/game-product-analytics-lab/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/oguzhanozfe/game-product-analytics-lab/actions/workflows/ci.yml)
+
 > Portfolio scope: no production player, device, advertising, or purchase data
 > is included. The fixture is synthetic and the results are not business claims.
+
+## Reproducible snapshot
+
+| Synthetic build | Tutorial complete | Level 20 complete | D1 retention |
+|---|---:|---:|---:|
+| 101 | 90% | 50% | 40% |
+| 102 | 90% | 70% | 60% |
+
+The decision note treats this difference as a signal for the next test, not as
+proof that one build caused better retention.
 
 ## Workflow
 

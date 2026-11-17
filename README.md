@@ -23,7 +23,7 @@ proof that one build caused better retention.
 
 ```mermaid
 flowchart LR
-    A[Deterministic synthetic events] --> B[Event-contract validation]
+    A[Deterministic synthetic events] --> B[Data-quality report]
     B --> C[SQLite]
     C --> D[Funnel SQL]
     C --> E[D1 retention SQL]
@@ -63,7 +63,7 @@ in-memory SQLite database, and prints every SQL result as a Markdown table.
 
 - Designing an analytics contract before interpreting metrics
 - Building reproducible funnel, retention, cohort/build, and revenue queries
-- Treating event quality as a release gate
+- Reporting event quality before reading metrics
 - Separating observation, correlation, causal proof, and product action
 - Communicating a decision without presenting immature or confounded data as a
   winner
